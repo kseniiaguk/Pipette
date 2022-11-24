@@ -1,0 +1,9 @@
+.img-container {
+    margin-top: 4vmax;
+}
+
+.loaded-img {
+    max-width: 40vmax;
+    user-select: none;
+}
+

@@ -1,0 +1,82 @@
+.info-container {
+    padding-top: 10vmax;
+    width: 30vmax;
+}
+
+.color-square {
+    width: 6vmax;
+    height: 6vmax;
+    border: 2px solid rgb(3, 4, 17);
+    outline: 1px solid rgb(193, 186, 249);
+    border-radius: 4%;
+}
+
+.characteristics {
+    margin-top: 3vmax;
+}
+
+.pos-container {
+    color: #221361;
+    font-size: 1.5vmax;
+}
+
+.pos {
+    margin-right: 2vmax;
+}
+
+.ch {
+    margin: 4vmax 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ch-name {
+    margin-right: 3.5vmax;
+    color: #221361;
+    font-size: 1.9vmax;
+    font-weight: 600;
+}
+
+.ch-value {
+    color: #10092d;
+    font-size: 1.7vmax;
+    font-weight: 400;
+    margin-right: 1.5vmax;
+}
+
+.ch-r {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.copy-icon {
+    width: 2vmax;
+    opacity: 55%;
+}
+
+.copy-icon:active {
+    opacity: 100%;
+}
+
+.copied {
+    color: #e2dfec;
+    background-color: #2f2b4081;
+    padding: 0.3vmax;
+    border-radius: 5%;
+    margin-left: 0.5vmax;
+    font-size: 1vmax;
+    user-select: none;
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: .5s;
+
+}
+
+.copied.show {
+    opacity: 100%;
+    transition-property: opacity;
+    transition-duration: .5s;
+}
